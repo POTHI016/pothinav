@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        nav{
+            height: 40px;
+            width:100%;
+            background-color: black;
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+            padding: 20px;
+            font-size: 25px;
+            text-align: center;
+        }
+        div{
+            float: right;
+            color: black;
+            font-size: 10px;
+        }
+        .resel{
+            display: none;
+        }
+        .h{
+            background-color: green;
+            height: 45px;
+         
+        }
+        .mark:hover .resel{
+            display: block;
+            position: absolute;
+        }
+        .mark{
+            font-size: small;
+        }
+        img{
+            width: 100%;
+        }
+     .mark .resel{
+            color: blue;
+        }
+        .r:hover{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a class="h" href="">Home</a>
+    <a class="r" href="./about.html">About</a>
+    <a class="r" href="./contact.html">Contact</a>
+<div class="mark">
+    <a href="">Sign_in</a>
+    <div class="resel">
+        <a style="color:red;" href="">Login</a>
+        <a href="">register</a>
+    </div>
+</div>
+</nav>
+<img src="./media/images (1).jpeg" alt="">
+</body>
+</html>
